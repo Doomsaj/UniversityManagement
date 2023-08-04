@@ -6,7 +6,6 @@ import com.doomsaj.universitymanagement.domain.university.model.dto.post.Univers
 import com.doomsaj.universitymanagement.domain.university.model.entity.University;
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
-import org.springframework.stereotype.Component;
 
 @Mapper(componentModel = "spring",uses = UniversityMapper.class, injectionStrategy = InjectionStrategy.CONSTRUCTOR)
 public interface UniversityMapper extends IBaseMapper<University, UniversityGetDto, UniversityPostDto> {

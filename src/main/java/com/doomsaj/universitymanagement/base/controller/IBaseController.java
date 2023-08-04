@@ -2,7 +2,6 @@ package com.doomsaj.universitymanagement.base.controller;
 
 import com.doomsaj.universitymanagement.base.exception.NotFoundException;
 import com.doomsaj.universitymanagement.base.model.dto.BaseDto;
-import com.doomsaj.universitymanagement.base.model.entity.BaseEntity;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;
