@@ -13,7 +13,7 @@ import java.util.List;
 
 
 public class BaseRestController<T extends BaseEntity, GD extends BaseDto, PD extends BaseDto> implements IBaseController<GD, PD>{
-    private IBaseService<T, GD, PD> baseService;
+    protected IBaseService<T, GD, PD> baseService;
 
     public BaseRestController(IBaseService<T, GD, PD> baseService) {
         this.baseService = baseService;
